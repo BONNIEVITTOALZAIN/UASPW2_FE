@@ -22,7 +22,7 @@ const Login = () => {
     
     try {
       const response = await axios.post(
-        "http://8.218.83.35:80/api/login",
+        "/api/login",
         { email, password }
       );
 
